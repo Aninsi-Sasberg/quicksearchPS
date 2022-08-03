@@ -5,11 +5,11 @@ function Get-NewSearch {
     }
 }
 
-while ($TRUE){
+while ($TRUE) {
     
     $getsearchfor = Read-Host -Prompt "What do you want to search for?`n"
     $searchin = Read-Host -Prompt "`nWhich directory do you want to search in?`n"
-    $searchfor = "*"+$getsearchfor+"*"
+    $searchfor = "*" + $getsearchfor + "*"
     Write-Output "`n"
 
     
